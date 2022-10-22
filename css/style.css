@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*
+font-family: 'Noto Sans', sans-serif;
+*/
+
+/* header part */
+header{
+    background: #5CBAFF;
+    padding: 15px 0;
+}
+header nav{
+    width: 50%;
+    margin: auto;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li{
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+}
+header nav ul li a img{
+    
+}
+
+/* content */
+.content{
+    display: flex;
+    height: 92vh;
+}
+.featured_image{
+    width: 40%;
+    background: #5CBAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.featured_image img{
+    width: 70%;
+}
+
+/* contact_form */
+.contact_form{
+    width: 60%;
+    background-color: #0093FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    width: 60%;
+}
+.contact h1{
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+}
+.contact p{
+    color: #fff;
+    margin: 20px 0 50px 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* form part */
+.contact h5{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+.contact form{
+    padding-bottom: 40px;
+}
+.contact form input{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 13px 0 13px 10px;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+}
+.contact form input[type="submit"]{
+    width: auto;
+    padding: 0;
+    padding: 13px 80px;
+    text-transform: uppercase;
+    color: #0093FF;
+    font-weight: 600;
+}
+
+/* social part */
+.contact_form ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+.contact_form ul li{
+    
+}
+.contact_form ul a{
+    text-decoration: none;
+    color: #fff;
+}
